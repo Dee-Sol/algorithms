@@ -1,2 +1,2 @@
 # algorithms
- Implementation of Selected Algorithms using Python
+ Implementation of Various Algorithms using Python
