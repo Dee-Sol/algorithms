@@ -1,4 +1,4 @@
-## Algorithms
+# Algorithms
  *Implementation of Various Algorithms using Python*
 
  ### Collaborative Filtering
