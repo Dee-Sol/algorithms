@@ -11,7 +11,7 @@ pivot element selection
 
 import math # used for math.floor
 import statistics # used to calculate median.
-import utils # helper function for main to check if list sorted.
+import utils # helper function for main to check if list has been sorted.
 
 #%% Define Cases for Pivot Selection Methods
 
