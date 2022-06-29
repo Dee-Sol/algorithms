@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 13 12:33:03 2022
+Created on Mon Jun 13 2022
 
 Recursive Algorithm for Karatsuba Multiplication
 
@@ -12,7 +12,7 @@ import numpy as np
 
 #%% Define Algorithm
 
-def Karatsuba(x,y):
+def Karatsuba(x: int, y: int) -> int:
     """
     Recursive algorithm for Karatsuba multiplication
 
@@ -20,14 +20,17 @@ def Karatsuba(x,y):
     ----------
     x : int
     y : int
-
+    
+    Returns
+    -------
+    Integer - product of x and y inputs
     """
     if len(str(x)) == 1 and len(str(y)) == 1:
         # Define base case      
        
         return int(x*y)
     else:
-                # add digits if digits of x and y are not the same or
+        # Add digits if digits of x and y are not the same or
         # not equal to the exponential of 2
         len_max=max(len(str(x)),len(str(y)))
         log_len_max=np.log2(len_max)
@@ -55,14 +58,27 @@ def Karatsuba(x,y):
         z_1 = Karatsuba(b,d)
         z_2 = Karatsuba(a+b,c+d)
         
-        # compute multiplication using Gaussian trick
+        # Compute multiplication using Gaussian trick
         return int((z_0*10**(2*m2))+((z_2-z_1-z_0)*10**m2)+(z_1))
 
-#%% Run Algorithm
+#%% Run Algorithm Test
 
+def main(x: int, y: int):
+    """ Runs Karatsuba multiplication and compares result with standard library output """
+    
+    result_Karatsuba = Karatsuba(x, y)
+    result_standard_lib = x * y
+    did_it_work = result_Karatsuba == result_standard_lib
+    
+    print(f"The result is: {result_Karatsuba}.\nIs our result correct?: {did_it_work}")
+    
+    return result_Karatsuba
+
+    
+# Test with 64-bit integers
+    
 x = 3141592653589793238462643383279502884197169399375105820974944592
 y = 2718281828459045235360287471352662497757247093699959574966967627
 
 
-print(Karatsuba(x, y))
-
+main(x, y)

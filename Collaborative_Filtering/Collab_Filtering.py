@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 15 17:20:33 2022
+Created on Wed Jun 15 2022
 
 Implementation of Collaborative Filtering using a Recursive Algorithm
 that Counts Number of Inversions in an Array.
@@ -10,7 +10,7 @@ that Counts Number of Inversions in an Array.
   
 #%% Define Algorithm
 
-def CountInv(A, count=0):
+def CountInv(A: list, count=0):
     """
     Recursive Algorithm for Collaborative Filtering
 
