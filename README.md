@@ -11,4 +11,4 @@
 
  ### QuickSort Algorithm
 
- Implementation of QuickSort algorithm.
+ Implementation of QuickSort algorithm. It allows for a choice of the pivot element, including implementation of Randomized QuickSort (Median-of-Three pivoting). Implementation allows for comparison of relative performance across approaches to recursive partitioning by keeping track of number of element swaps needed to sort the array. 
