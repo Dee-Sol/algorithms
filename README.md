@@ -11,7 +11,7 @@
 
  ### Karger's Minimum Cut Algorithm
  
- A randomized algorithm that computes a minimum cut of an undirected graph. It performs randomised contraction of edges until a multigraph of two vertices is produced.
+ A randomized algorithm that computes a minimum cut of an undirected graph. It performs randomized contraction of edges until a multigraph of two vertices is produced.
 
  ### QuickSort Algorithm
 
