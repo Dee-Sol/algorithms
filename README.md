@@ -9,6 +9,10 @@
  
  Recursive algorithm for computation of product of two large integers (e.g. 64-bit) using Karatsuba multiplication method.
 
+ ### Karger's Minimum Cut Algorithm
+ 
+ A randomized algorithm that computes a minimum cut of an undirected graph. It performs randomised contraction of edges until a multigraph of two vertices is produced.
+
  ### QuickSort Algorithm
 
  Implementation of QuickSort algorithm. It allows for a choice of the pivot element, including implementation of Randomized QuickSort (Median-of-Three pivoting). Implementation allows for comparison of relative performance across approaches to recursive partitioning by keeping track of the number of element swaps needed to sort the array. 
