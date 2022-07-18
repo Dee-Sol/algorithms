@@ -13,6 +13,11 @@
  
  A randomized algorithm that computes a minimum cut of an undirected graph. It performs randomized contraction of edges until a multigraph of two vertices is produced. Implementation allows for measurement of basic performance statistics across iterations.
 
+ ### Kosaraju's Algorithm 
+ 
+ Implementation of Kosaraju algorithm, which computes strongly connected components of a directed graph. Implementation consists of two passes of the Depth-First Search algorithm.
+ While the original algorithm is recursive, this implementation is iterative.
+
  ### QuickSort Algorithm
 
  Implementation of QuickSort algorithm. It allows for a choice of the pivot element, including implementation of Randomized QuickSort (Median-of-Three pivoting). Implementation allows for comparison of relative performance across approaches to recursive partitioning by keeping track of the number of element swaps needed to sort the array. 
