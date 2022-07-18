@@ -15,8 +15,7 @@
 
  ### Kosaraju's Algorithm 
  
- Implementation of Kosaraju algorithm, which computes strongly connected components of a directed graph. Implementation consists of two passes of the Depth-First Search algorithm.
- While the original algorithm is recursive, this implementation is iterative.
+ Implementation of Kosaraju's algorithm, which computes strongly connected components of a directed graph. Implementation consists of two passes of the Depth-First Search algorithm. While the original algorithm is recursive, this implementation is iterative.
 
  ### QuickSort Algorithm
 
