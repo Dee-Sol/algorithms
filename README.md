@@ -5,6 +5,10 @@
 
  Implementation of Collaborative Filtering using Merge-Sort algorithm. As part of implementation, the sorting algorithm counts the number of inversions in an array.
 
+ ### Dijkstra's Shortest-Path
+ 
+ Implementation of Dijkstra's Shortest-Path algorithm using heaps data structure. Calculates shortest distance from a given vertex of an undirected weighted graph to any other vertex. 
+
  ### Karatsuba Multiplication
  
  Recursive algorithm for computation of product of two large integers (e.g. 64-bit) using Karatsuba multiplication method.
