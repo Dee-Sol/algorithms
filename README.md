@@ -25,6 +25,10 @@
 
  Implementation of the Median Maintenance algorithm using "heaps" data structure. The algorithm maintains a running median of an input array by breaking it up into a MIN heap and a MAX heap.
 
+ ### Scheduling Algorithm
+
+ A simple greedy algorithm for scheduling tasks with varying priorities and duration. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
+
  ### QuickSort Algorithm
 
  Implementation of QuickSort algorithm. It allows for a choice of the pivot element, including implementation of Randomized QuickSort (Median-of-Three pivoting). Implementation allows for comparison of relative performance across approaches to recursive partitioning by keeping track of the number of element swaps needed to sort the array.
