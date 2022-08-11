@@ -27,7 +27,7 @@
 
  ### Scheduling Algorithm
 
- A simple greedy algorithm for scheduling tasks with varying priorities and duration. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
+ A simple greedy algorithm for scheduling tasks with varying priorities and durations. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
 
  ### QuickSort Algorithm
 
@@ -35,4 +35,4 @@
 
  ### 2-Sum Algorithm
 
-
+ A variant of the 2-Sum algorithm. The implementation computes the number of target values t within a definable interval, such that there are distinct numbers x, y in the input array that satisfy x+y=t. Implementation uses a hash table to speed up the search sub-routine.
