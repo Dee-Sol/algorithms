@@ -9,6 +9,10 @@
  
  Implementation of Dijkstra's Shortest-Path algorithm using heaps data structure. Calculates shortest distance from a given vertex of an undirected weighted graph to any other vertex. 
 
+ ### k-Clustering Algorithms
+ 
+ Two implementations of clustering algorithms (for more detail, see ReadMe in respective folder). The first one is a variant of Kruskal's Minimum Spanning Tree algorithm. The second one is intended for much larger graphs - it uses: 1) Hamming distances to leverage off of bit-masks, and 2) the Union-Find data structure.
+
  ### Karatsuba Multiplication
  
  Recursive algorithm for computation of product of two large integers (e.g. 64-bit) using Karatsuba multiplication method.
