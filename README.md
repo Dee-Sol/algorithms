@@ -11,7 +11,9 @@
 
  ### k-Clustering Algorithms
  
- Two implementations of clustering algorithms (for more detail, see ReadMe in respective folder). The first one is a variant of Kruskal's Minimum Spanning Tree algorithm. The second one is intended for much larger graphs - it uses: 1) Hamming distances to leverage off of bit-masks, and 2) the Union-Find data structure.
+ Two implementations of clustering algorithms (for more detail, see ReadMe in respective folder). The first one is a variant of Kruskal's Minimum Spanning Tree algorithm. 
+
+ The second one is intended for much larger graphs, as it uses: 1) Hamming distances to leverage off of bit-masks, and 2) the Union-Find data structure.
 
  ### Karatsuba Multiplication
  

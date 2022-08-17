@@ -2,7 +2,7 @@
 
  ### Maximum Spacing k-Clustering Algorithm
 
- The implementation returns maximum spacing for a given number of clusters. It is based on a greedy clustering algorithm (variant of Kruskal's Minimum Spanning Tree algorithm). We greedily take the closest pair of separated points and fuse them into the same cluster, iteratively increasing the maximum spacing.
+ The implementation returns maximum spacing for a given number of clusters. It is based on a greedy clustering algorithm (variant of Kruskal's Minimum Spanning Tree algorithm). The implementation greedily takes the closest pair of separated points and fuses them into the same cluster, iteratively increasing the maximum spacing.
  
  ### Maximum k-Clustering Algorithm
 
@@ -10,7 +10,7 @@
 
  The implementation supports very large graphs via usage of Hamming distances (and subsequently bit-masks/bit-shifts) and the Union-Find data structure. These enhancements come at the expense of deviation from Kruskal's Minimum Spanning Tree algorithm. 
 
- ###### Note on Input Graph
+ #### Note on Input Graph
 
  The second algorithm is built to support MUCH bigger graphs. However, the distances (i.e., edge costs) will have to be defined implicitly, rather than being provided as an explicit list.
  
