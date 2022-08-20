@@ -31,6 +31,10 @@
 
  Implementation of the Median Maintenance algorithm using "heaps" data structure. The algorithm maintains a running median of an input array by breaking it up into a MIN heap and a MAX heap.
 
+ ### Prim's Minimum Spanning Tree
+
+ Implementation of Prim's Minimum Spanning Tree (MST) algorithm. An MST is a subset of all edges that includes every vertex, where the total cost of all the edges in the tree is minimized. The implementation uses the heap data structure, which is used to store unprocessed vertices. 
+
  ### Scheduling Algorithm
 
  A simple greedy algorithm for scheduling tasks with varying priorities and durations. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
