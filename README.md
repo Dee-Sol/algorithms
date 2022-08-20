@@ -33,7 +33,7 @@
 
  ### Prim's Minimum Spanning Tree
 
- Implementation of Prim's Minimum Spanning Tree (MST) algorithm. An MST is a subset of all edges that includes every vertex, where the total cost of all the edges in the tree is minimized. The implementation uses the heap data structure, which is used to store unprocessed vertices. 
+ Implementation of Prim's Minimum Spanning Tree (MST) algorithm. An MST is a subset of all edges that includes every vertex of a weighted undirected graph, where the total weight of all the edges in the tree is minimized. The implementation uses the heap data structure, which is used to store unprocessed vertices. 
 
  ### Scheduling Algorithm
 
