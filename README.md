@@ -27,6 +27,10 @@
  
  Implementation of Kosaraju's algorithm, which computes strongly connected components of a directed graph. Implementation consists of two passes of the Depth-First Search algorithm. While the original algorithm is recursive, this implementation is iterative.
 
+ ### Maximum-Weight Independent Set
+ 
+ The algorithm leverages off of principles of dynamic programming to compute maximum-weight independent set for a path graph, where independent set is defined as a set of non-adjacent vertices. The implementation splits computation into two parts: 1) Memorization algorithm, and 2) Reconstruction algorithm.
+
  ### Median Maintenance
 
  Implementation of the Median Maintenance algorithm using "heaps" data structure. The algorithm maintains a running median of an input array by breaking it up into a MIN heap and a MAX heap.
