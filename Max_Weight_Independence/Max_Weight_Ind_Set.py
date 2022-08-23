@@ -6,7 +6,7 @@ Use case of dynamic programming to compute maximum-weight independent set of
 a path graph. Independent set is defined as a set of non-adjacent vertices.
 
 Implementation splits computation into two parts:
-    1) Memorization algorithm, and 
+    1) Memoization algorithm, and 
     2) Reconstruction algorithm
 
 @author: D. S.
@@ -31,12 +31,12 @@ def max_weight_IS(path: list) -> set:
     Returns maximum-weight independent set for a path graph.
     Implementation uses dynamic programming approach and splits computation
     into two parts: 
-    1) Memorization algorithm, and 2) Reconstruction algorithm.
+    1) Memoization algorithm, and 2) Reconstruction algorithm.
     
     '''
     n_weights = len(path)
     
-    # Memorization Algorithm:
+    # Memoization Algorithm:
     # Cache solutions to already solved subproblems   
     A = [0] * n_weights
     A[1] = path[0]

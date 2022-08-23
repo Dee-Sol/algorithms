@@ -5,8 +5,8 @@
  #### Synopsis
  After generating the array A which holds the maximum weights for subsets of the path graph, we traversed A backwards to generate the actual maximum-weight independent set (MWIS) of the path graph, each time deciding whether or not to include a vertex in the MWIS depending on whether or not the previous entry in A is equal to (case 1) or less (case 2) than the current entry in A.
 
- #### Memorization Algorithm
- Linear computation time can be obtained by caching the solution of already solved subproblems ("memorization")
+ #### Memoization Algorithm
+ Linear computation time can be obtained by caching the solution of already solved subproblems ("memoization")
  - Let G_i be the first i nodes of the path w_1, w_2, ..., w_n
  - the caching can be done by building the graph bottom up and storing the results for G_i in an array A
     - A[0] = 0 (no nodes)

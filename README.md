@@ -29,7 +29,7 @@
 
  ### Maximum-Weight Independent Set
  
- The algorithm leverages off of principles of dynamic programming to compute maximum-weight independent set for a path graph, where independent set is defined as a set of non-adjacent vertices. The implementation splits computation into two parts: 1) Memorization algorithm, and 2) Reconstruction algorithm. For more detail, see ReadMe in respective folder.
+ The algorithm leverages off of principles of dynamic programming to compute maximum-weight independent set for a path graph, where independent set is defined as a set of non-adjacent vertices. The implementation splits computation into two parts: 1) Memoization algorithm, and 2) Reconstruction algorithm. For more detail, see ReadMe in respective folder.
 
  ### Median Maintenance
 
