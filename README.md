@@ -9,6 +9,10 @@
  
  Implementation of Dijkstra's Shortest-Path algorithm using heaps data structure. Calculates shortest distance from a given vertex of an undirected weighted graph to any other vertex. 
 
+ ### Huffman Coding
+ 
+ Implementation of Huffman Coding - a greedy algorithm which generates binary prefix-free encoding for a given set of characters. Optimal computation time of the Huffman tree is achieved by using heaps data structure as well as a bespoke variant of binary search trees. For more detail, see ReadMe in respective folder.
+
  ### k-Clustering Algorithms
  
  Two implementations of clustering algorithms (for more detail, see ReadMe in respective folder). The first one is a variant of Kruskal's Minimum Spanning Tree algorithm. 
