@@ -27,6 +27,10 @@
  
  A randomized algorithm that computes a minimum cut of an undirected graph. It performs randomized contraction of edges until a multigraph of two vertices is produced. Implementation allows for measurement of basic performance statistics across iterations.
 
+ ### Knapsack Problem
+
+ Implementation of the Knapsack algorithm which leverages off of the dynamic programming paradigm. The implementation was extended to apply the paradigm in two ways - either iteratively or recursively. While both perform equally well on smaller lists of items, the recursive approach scales up considerably better. For more detail, see ReadMe in respective folder.
+
  ### Kosaraju's Algorithm 
  
  Implementation of Kosaraju's algorithm, which computes strongly connected components of a directed graph. Implementation consists of two passes of the Depth-First Search algorithm. While the original algorithm is recursive, this implementation is iterative.
