@@ -51,6 +51,10 @@
 
  A simple greedy algorithm for scheduling tasks with varying priorities and durations. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
 
+ ### Travelling Salesman Problem
+
+ A dynamic programming algorithm for the Travelling Salesman Problem. The implementation utilises bit-wise operations (namely, Gosper's Hack) for faster iterations across possible solutions. For more detail, see ReadMe in the respective folder.
+
  ### QuickSort Algorithm
 
  Implementation of QuickSort algorithm. It allows for a choice of the pivot element, including implementation of Randomized QuickSort (Median-of-Three pivoting). Implementation allows for comparison of relative performance across approaches to recursive partitioning by keeping track of the number of element swaps needed to sort the array.
