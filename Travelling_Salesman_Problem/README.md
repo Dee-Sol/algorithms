@@ -8,7 +8,7 @@
  
  Numerous algorithms have been proposed to tackle the TSP, ranging greatly in computational time and solution accuracy. The slowest approach (i.e. the brute-force algorithm) runs in O(n!) time while guaranteeing an optimal solution.
 
- This algorithm leverages off dynamic programming principles (top-down recursion and memoization) to solve the TSP. Its running time is considerably better (although still exponential) - for a set of size n, we consider n-2 subsets, each of size n-1, such that all subsets don’t have nth in them. There are at most O(n*2^n) sub-problems, and each one takes linear time to solve. The total running time is therefore O(n^2*2^n). 
+ This algorithm leverages off dynamic programming principles (top-down recursion and memoization) to solve the TSP. Its running time is considerably better (although still exponential) - for a set of size n, we consider n-2 subsets, each of size n-1, such that all subsets don’t have nth in them. There are at most O(n x 2^n) sub-problems, and each one takes linear time to solve. The total running time is therefore O(n^2 x 2^n). 
 
  That being said, as an additional optimisation, the implementation utilises bit-wise operations (Gosper's Hack) for faster iterations via bitmasks.
 
