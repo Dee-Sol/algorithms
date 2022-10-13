@@ -51,9 +51,13 @@
 
  A simple greedy algorithm for scheduling tasks with varying priorities and durations. The algorithm minimizes weighted sum of completion times and allows for a choice of the minimization method - either on the basis of a task's ratio (priority/duration) or its relative difference (priority - duration).
 
- ### Travelling Salesman Problem
+ ### Travelling Salesman Problem (Dynamic Programming)
 
  A dynamic programming algorithm for the Travelling Salesman Problem. The implementation utilises bit-wise operations (namely, Gosper's Hack) for faster iterations across possible solutions. For more detail, see ReadMe in the respective folder.
+
+ ### Travelling Salesman Problem (Nearest Neighbor)
+
+ Implementation of the "Nearest Neighbor" heuristic to solve the Travelling Salesman Problem. The algorithm is extended to support multiple iterations, each with randomly-selected starting point. It also includes a visualization function for the shortest path. For more detail, see ReadMe in the respective folder.
 
  ### QuickSort Algorithm
 
