@@ -8,11 +8,11 @@
  
  Numerous algorithms have been proposed to tackle the TSP, ranging greatly in computational time and solution accuracy. The slowest approach (i.e. the brute-force algorithm) runs in O(n!) time while guaranteeing an optimal solution.
 
- Algorithm below is an implementation of the "Nearest Neighbor" heuristic and runs in O(n^2) time. Overview of the *nearest neighbor* heuristic:
+ Algorithm below is an implementation of the "Nearest Neighbor" heuristic and runs in O(n^2) time. Overview of the heuristic:
 
  	1. Start the tour at a randomly-selected city.
 
-	2. Repeatedly visit the closest city that the tour hasn't visited yet.  In case of a tie, go to the closest city with the lowest index. For example, if both the third and fifth cities have the same distance from the first city (and are closer than any other city), then the tour should begin by going from the first city to the third city.
+	2. Repeatedly visit the closest city that the tour hasn't visited yet. In case of a tie, go to the closest city with the lowest index.
 
 	3. Once every city has been visited exactly once, return to the first city to complete the tour.
 
